@@ -5,3 +5,10 @@ Accuracy| Value
 ----------|----------
 Top-1|69.70%
 Top-5|92.50%
+
+---
+order: 0
+title:
+  zh-CN: 按钮类型
+  en-US: Type
+---
