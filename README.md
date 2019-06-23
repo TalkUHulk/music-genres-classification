@@ -21,8 +21,15 @@ Below picture shows the training-process on tensorboard:
   <em> Accuracy</em>
 </p>
 
+##Pre-Trained Testing
 
-##Training
+* Step1: download [pre_trained](https://pan.baidu.com/s/1Pg7UH5rj_xCv77Wz4sCy_A) model,and put it into `models/` folder.
+* Step2: test by executing the following command:
+```python 
+python test.py
+```
+
+## Training
 
 * Step1: download Dataset GTZAN,and put it into `GTZAN/` folder.
 * Step2: create the tfrecords by executing the following command:
@@ -34,14 +41,14 @@ python create_data_to_train.py
 python train.py
 ```
 
-##Testing
+## Testing
 
-Run the following command to test the test-dataset:
+Run the following command to simple test the test-dataset:
 ```python 
 python test.py
 ```
 
-##References
+## References
 
 [1]https://github.com/deepsound-project/genre-recognition/blob/master/README.md
 
