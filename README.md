@@ -50,7 +50,7 @@ python test.py
 
 ## References
 
-[1]https://github.com/deepsound-project/genre-recognition/blob/master/README.md
+[1] https://github.com/deepsound-project/genre-recognition
 
 
 
