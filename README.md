@@ -33,12 +33,13 @@ python test.py
 
 * Step1: download Dataset GTZAN,and put it into `GTZAN/` folder.
 * Step2: create the tfrecords by executing the following command:
-```python 
+```Bash 
 usage: create_data_to_train.py [-h] [--data_path DATA_PATH]
                                [--train_path TRAIN_PATH]
                                [--test_path TEST_PATH] [--test_size TEST_SIZE]
                                [--aug AUG]
-                               
+```
+```Bash
 optional arguments:
   -h, --help            show this help message and exit
   --data_path DATA_PATH
@@ -54,13 +55,15 @@ optional arguments:
 
 ```
 * Step3: train the model by executing the following command:
-```python 
+```Bash 
 usage: train.py [-h] [--train_data TRAIN_DATA] [--decay_rate DECAY_RATE]
                 [--global_steps GLOBAL_STEPS] [--decay_steps DECAY_STEPS]
                 [--learning_rate LEARNING_RATE] [--eval_step EVAL_STEP]
                 [--batch_size BATCH_SIZE] [--model_path MODEL_PATH]
                 [--summary_path SUMMARY_PATH] [--load_model LOAD_MODEL]
-                
+```
+
+```Bash           
 optional arguments:
   -h, --help            show this help message and exit
   --train_data TRAIN_DATA
