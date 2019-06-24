@@ -1,4 +1,0 @@
-tqdm==4.32.1
-tensorflow==1.8.0
-numpy==1.15.1
-librosa==0.6.3
