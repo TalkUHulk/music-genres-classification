@@ -9,7 +9,7 @@ Below table shows the result on test set:
 Accuracy | Value
 --------- | ---------
 Top-1 | 69.70%
-Top-5 | 92.50%
+Top-3 | 92.50%
 
 Below picture shows the training-process on tensorboard:
 <p align="center">
